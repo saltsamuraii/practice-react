@@ -5,8 +5,8 @@ module.exports = {
     mode: "development",
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, 'dist'),
         filename: "main.js",
+        path: path.resolve(__dirname, 'dist'),
     },
     module: {
         rules: [
@@ -23,7 +23,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/index.html"
+            template: "public/index.html"
         })
     ]
 };
