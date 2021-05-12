@@ -1,3 +1,10 @@
+h1 {
+    font: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
 p {
     font-size: 30px;
     color: #00bc8c;
